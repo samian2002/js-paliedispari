@@ -13,3 +13,9 @@ let numeroComputer = generaNumeroCasuale();
 // Calcolo la somma dei numeri
 let somma = numeroUtente + numeroComputer;
 
+// Comunico il risultato all'utente
+alert("Il tuo numero: " + numeroUtente + "\nNumero del computer: " + numeroComputer + "\nSomma dei numeri: " + somma);
+
+// Verifica se la somma è pari o dispari e determinazione del vincitore
+if (somma % 2 === 0) {
+  
