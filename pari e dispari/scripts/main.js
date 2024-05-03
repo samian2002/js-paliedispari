@@ -18,4 +18,15 @@ alert("Il tuo numero: " + numeroUtente + "\nNumero del computer: " + numeroCompu
 
 // Verifica se la somma è pari o dispari e determinazione del vincitore
 if (somma % 2 === 0) {
-  
+    if (sceltaUtente === "pari") {
+        alert("Hai vinto! La somma è pari.");
+    } else {
+        alert("Hai perso. La somma è pari. Il computer vince.");
+    }
+} else {
+    if (sceltaUtente === "dispari") {
+        alert("Hai vinto! La somma è dispari.");
+    } else {
+        alert("Hai perso. La somma è dispari. Il computer vince.");
+    }
+}
