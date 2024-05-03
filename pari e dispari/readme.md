@@ -1,0 +1,4 @@
+Inizierò chiedendo all'utente di scegliere se punta su "pari" o "dispari" usando un prompt. Controllerò che risponda solo con queste due opzioni. Poi, gli chiederò di inserire un numero tra 1 e 5, sempre con un prompt, e mi assicurerò che sia un numero valido nel range richiesto.
+Successivamente, genererò un numero casuale tra 1 e 5 per il computer utilizzando una funzione apposita che sfrutta la generazione di numeri casuali
+Determinrò se la somma del numero dell'utente e quello del computer è pari o dispari. Implementerò una funzione che prenda questi due numeri, calcoli la loro somma e poi verifichi se il risultato è pari o dispari.
+Alla fine, confronterò il risultato di questa funzione con la scelta iniziale dell'utente. Se corrispondono, l'utente vince, altrimenti vince il computer. Comunicherò chi ha vinto tramite un alert.
